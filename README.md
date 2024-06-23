@@ -71,10 +71,12 @@ Cada pregunta se irá imprimiendo según la PEC lor requiera en la linea de coma
 
 ## Instalación
 
-Instrucciones sobre cómo instalar el proyecto.
+Para instalar el proyecto es necesario seguir los siguientes pasos.
 
 ```sh
-pip install -r requirements.txt
+1. git clone https://github.com/EstebanBraganza77/ebraganza_PEC4.git 
+2. cd ./ebraganza_PEC4
+3. pip install -r requirements.txt
 ```
 
 ## Uso
