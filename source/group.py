@@ -2,9 +2,12 @@
 This module provides functions for processing and analyzing a DataFrame containing firearm permit data.
 
 Functions:
-- groupby_state_and_year(dataframe: pd.DataFrame) -> pd.DataFrame: Groups the DataFrame by 'state' and 'year' columns and sums the values.
-- print_biggest_handguns(dataframe: pd.DataFrame) -> None: Prints the state and year with the maximum number of 'handgun' values.
-- print_biggest_longguns(dataframe: pd.DataFrame) -> None: Prints the state and year with the maximum number of 'long_guns' values.
+- groupby_state_and_year(dataframe: pd.DataFrame) -> pd.DataFrame:
+Groups the DataFrame by 'state' and 'year' columns and sums the values.
+- print_biggest_handguns(dataframe: pd.DataFrame) -> None:
+Prints the state and year with the maximum number of 'handgun' values.
+- print_biggest_longguns(dataframe: pd.DataFrame) ->
+None: Prints the state and year with the maximum number of 'long_guns' values.
 """
 
 

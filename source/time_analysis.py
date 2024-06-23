@@ -52,5 +52,3 @@ def comment_time_evolution_plot() -> None:
         permisos de porte de armas y el número de muertes ocasionadas por armas. Lo cual pordía ser un argumento
         en contra de la permisividad que existe en EEUU para portar armas de fuego.
         ''')
-
-
