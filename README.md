@@ -79,7 +79,7 @@ pip install -r requirements.txt
 
 ## Uso
 
-Para ejecutar el proyecto después de instalarlo es necesario ejecutar el comando. Mientras se ejecuta se irán imprimiendo en pantalla las respuestas a las preguntas que lo requieren. 
+Para ejecutar el proyecto después de instalarlo es necesario ejecutar el comando descrito en este apartado. Mientras se ejecuta se irán imprimiendo en pantalla las respuestas a las preguntas que lo requieren. 
 
 ### Nota importante:
 En la pregunta que genera el gráfico de evolución temporal aparecerá una ventana con el gráfico generado pero la ejecución se parará si no se cierra el mismo. Por favor cerrar esta ventana para continuar con las demás preguntas.
