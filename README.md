@@ -50,7 +50,7 @@ Cada pregunta se irá imprimiendo según la PEC lor requiera en la linea de coma
   - `maps.py`: Módulo para funcionalidades relacionadas con mapas pregunta 6.
 - **maps**: Carpeta para almacenar los archivos de mapas generados.
 - **tests**: Carpeta para almacenar los archivos de pruebas unitarias. Incluye un archivo `__init__.py` para reconocerlo como un paquete.
-  - `test_pec4.py`: Pruebas unitarias para toda la `PEC4`.
+  - `test_pec4.py`: Pruebas unitarias para las tres primeras preguntas de la `PEC4`.
 
 
 ### Archivos
@@ -93,7 +93,7 @@ Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo LICENC
 
 ## Lógica del Código
 
-El módulo main.py importará todas las funciones escritas de sus respectivos módulos y ejecuta la función **main** la cual ejecuta en orden el análisis solicitado en el enunciado de la PEC.
+El módulo `main.py` importará todas las funciones escritas de sus respectivos módulos y ejecuta la función **main** la cual ejecuta en orden el análisis solicitado en el enunciado de la PEC.
 Ya que cada función está ligada al output de la anterior se tiene que ejecutar en el orden descrito en este módulo.
 
 ```python
@@ -154,6 +154,24 @@ def main():
                      column_to_plot=metric, geo_json=geo_json_url, color=color)
 ```
 
+Por otro lado el módulo `run_tests.py` genera las suites para probar las tres primeras preguntas de la PEC4 y este archivo ejecuta los tests implementados. 
+
+```python
+import unittest
+from tests.test_pec4 import TestReadClean, TestProcess, TestGroup
+
+
+def test_suite():
+    suite = unittest.TestSuite()
+    suite.addTest(unittest.makeSuite(TestReadClean))
+    suite.addTest(unittest.makeSuite(TestProcess))
+    suite.addTest(unittest.makeSuite(TestGroup))
+    return suite
+
+
+if __name__ == '__main__':
+    unittest.TextTestRunner().run(test_suite())
+```
 
 
 
