@@ -55,11 +55,11 @@ Cada pregunta se irá imprimiendo según la PEC lor requiera en la linea de coma
 
 ### Archivos
 
-- **main.py**: Archivo principal donde se ejecuta el código primario del proyecto.
-- **requirements.txt**: Archivo para listar las dependencias del proyecto que se pueden instalar usando `pip`.
-- **README.md**: Archivo de documentación que describe el proyecto, cómo instalarlo, usarlo, etc.
-- **LICENCE**: Archivo que especifica la licencia del proyecto.
-- **run_tests.py**: Archivo que crea y ejecuta las suites de los tests unitarios.
+- `main.py`: Archivo principal donde se ejecuta el código primario del proyecto.
+- `requirements.txt`: Archivo para listar las dependencias del proyecto que se pueden instalar usando `pip`.
+- `README.md`: Archivo de documentación que describe el proyecto, cómo instalarlo, usarlo, etc.
+- `LICENCE`: Archivo que especifica la licencia del proyecto.
+- `run_tests.py`: Archivo que crea y ejecuta las suites de los tests unitarios.
 
 ## Instalación
 
