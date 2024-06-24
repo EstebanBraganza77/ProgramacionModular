@@ -28,12 +28,7 @@ Cada pregunta se irá imprimiendo según la PEC lor requiera en la linea de coma
 │
 ├── tests
 │   ├── __init__.py
-│   ├── test_read_clean.py
-│   ├── test_process.py
-│   ├── test_time_analysis.py
-│   ├── test_state_analysis.py
-│   ├── test_group.py
-│   └── test_maps.py
+│   ├── test_pec4.py
 │
 ├── main.py
 ├── run_tests.py
@@ -55,12 +50,8 @@ Cada pregunta se irá imprimiendo según la PEC lor requiera en la linea de coma
   - `maps.py`: Módulo para funcionalidades relacionadas con mapas pregunta 6.
 - **maps**: Carpeta para almacenar los archivos de mapas generados.
 - **tests**: Carpeta para almacenar los archivos de pruebas unitarias. Incluye un archivo `__init__.py` para reconocerlo como un paquete.
-  - `test_read_clean.py`: Pruebas unitarias para `read_clean.py`.
-  - `test_process.py`: Pruebas unitarias para `process.py`.
-  - `test_time_analysis.py`: Pruebas unitarias para `time_analysis.py`.
-  - `test_state_analysis.py`: Pruebas unitarias para `state_analysis.py`.
-  - `test_group.py`: Pruebas unitarias para `group.py`.
-  - `test_maps.py`: Pruebas unitarias para `maps.py`.
+  - `test_pec4.py`: Pruebas unitarias para toda la `PEC4`.
+
 
 ### Archivos
 
@@ -68,6 +59,7 @@ Cada pregunta se irá imprimiendo según la PEC lor requiera en la linea de coma
 - **requirements.txt**: Archivo para listar las dependencias del proyecto que se pueden instalar usando `pip`.
 - **README.md**: Archivo de documentación que describe el proyecto, cómo instalarlo, usarlo, etc.
 - **LICENCE**: Archivo que especifica la licencia del proyecto.
+- **run_tests.py**: Archivo que crea y ejecuta las suites de los tests unitarios.
 
 ## Instalación
 
