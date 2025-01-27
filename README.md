@@ -3,7 +3,7 @@
 ### Realizado por: Esteban Braganza
 
 Este repositorio contiene mi solución para la PEC4 de la materia **Progamación para ciencia de datos**. El código está dividido de tal forma que cada pregunta está resuelta en un módulo diferente.
-Cada pregunta se irá imprimiendo según la PEC lor requiera en la linea de comandos. Los comentarios solicitados en algunas de las preguntas también se imprimirán en la línea de comandos según se necesita. 
+Cada pregunta se irá imprimiendo según la PEC lor requiera en la linea de comandos. Los comentarios solicitados en algunas de las preguntas también se imprimirán en la línea de comandos según se necesita. Este es un ejemplo de como se puede implementar un proyecto de programación completo, tomando en cuenta buenas prácticas y modulzarización, además se implementan algunas pruebas unitarias para asegurar la calidad y robustez del código.
 
 ## Estructura del proyecto
 
